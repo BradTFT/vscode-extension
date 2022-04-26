@@ -1,0 +1,19 @@
+{
+  "name": "vscode-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BradTFT/vscode-extension.git"
+  },
+  "author": "BradTFT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BradTFT/vscode-extension/issues"
+  },
+  "homepage": "https://github.com/BradTFT/vscode-extension#readme"
+}
