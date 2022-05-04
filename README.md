@@ -7,3 +7,15 @@ I started installing the packages from node from the VSCode extension building d
 **2.3.22 SOLVED** <br />
 
 Solved via this stackoverflow post(https://stackoverflow.com/posts/29137558/revisions). production is back in business baby
+
+
+
+## (real)DAY 1:
+**2.3.22: 10pm** <br />
+After a lot of reading and pain and tears, i got the generator to run. and right as i start up that extension i throw an error. 
+
+```
+Activating extension 'undefined_publisher.vscode-extension' failed: Cannot find module '/home/user/vscode-extension/vscode-extension/dist/extension.js' Require stack: - /usr/share/code/resources/app/out/vs/loader.js - /usr/share/code/resources/app/out/bootstrap-amd.js - /usr/share/code/resources/app/out/bootstrap-fork.js.
+```
+
+now i have no idea how this is fixable but im going to figure it out tmr because i am tired(this took like 4 hours to figure out). and i still dont completely understand JS(this is TS but same thing ok) or how the VSCode API works so tomorrow is going to be a jump in and learn (more like jump in and get super frustrated and overwhelmed but i digress). 
