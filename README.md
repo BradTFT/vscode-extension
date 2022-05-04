@@ -25,4 +25,4 @@ now i have no idea how this is fixable but im going to figure it out tmr because
 <br />
 **2.4.22** <br />
 
-I have a theory about fixing the issue. i reinstated the generator at 9:47 pm. but i updated VSCode to the newest version an hour earlier. there could be a version conflict. Im going to reinstate the generator again
+I have a theory about fixing the issue. i reinstated the generator at 9:47 pm. but i updated VSCode to the newest version an hour earlier. there could be a version conflict. Im going to reinstate the generator again. I just reinstated the generator. lets see if this works. Didnt work. same error. i guess i can just wait until someone answers my github issue
