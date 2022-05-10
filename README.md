@@ -23,6 +23,11 @@ Activating extension 'undefined_publisher.vscode-extension' failed: Cannot find 
 now i have no idea how this is fixable but im going to figure it out tmr because i am tired(this took like 4 hours to figure out). and i still dont completely understand JS(this is TS but same thing ok) or how the VSCode API works so tomorrow is going to be a jump in and learn (more like jump in and get super frustrated and overwhelmed but i digress). 
 
 <br />
+
 **2.4.22** <br />
 
 I have a theory about fixing the issue. i reinstated the generator at 9:47 pm. but i updated VSCode to the newest version an hour earlier. there could be a version conflict. Im going to reinstate the generator again. I just reinstated the generator. lets see if this works. Didnt work. same error. i guess i can just wait until someone answers my github issue
+<br />
+
+**2.10.22** <br />
+Today people have finally responded to my github issues. they are [here](https://github.com/microsoft/vscode/issues/148932) and [here](https://github.com/microsoft/vscode-generator-code/issues/345) if you would like to view them. Hopefully i can get the fix tonight so i can start working.
