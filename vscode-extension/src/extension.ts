@@ -22,5 +22,12 @@ export function activate(context: vscode.ExtensionContext) {
 	context.subscriptions.push(disposable);
 }
 
+export function activate1(context: vscode.ExtensionContext){
+	let disposable1 = vscode.commands.registerCommand('vscode-extension.abc', () => {
+
+		vscode.window.showInformationMessage('ABCs go here');
+	});
+	context.subscriptions.push(disposable1);
+}
 // this method is called when your extension is deactivated
 export function deactivate() {}
