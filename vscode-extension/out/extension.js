@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.deactivate = exports.activate = void 0;
+exports.deactivate = exports.activate1 = exports.activate = void 0;
 // The module 'vscode' contains the VS Code extensibility API
 // Import the module and reference it with the alias vscode in your code below
 const vscode = require("vscode");
@@ -21,6 +21,13 @@ function activate(context) {
     context.subscriptions.push(disposable);
 }
 exports.activate = activate;
+function activate1(context) {
+    let disposable1 = vscode.commands.registerCommand('vscode-extension.abc', () => {
+        vscode.window.showInformationMessage('ABCs go here');
+    });
+    context.subscriptions.push(disposable1);
+}
+exports.activate1 = activate1;
 // this method is called when your extension is deactivated
 function deactivate() { }
 exports.deactivate = deactivate;
