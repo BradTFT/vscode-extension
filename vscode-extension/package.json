@@ -12,12 +12,19 @@
 	"activationEvents": [
         "onCommand:vscode-extension.helloWorld"
 	],
+	"activationEvents1": [
+		"onCommand:vscode-extension.abc"
+	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
 				"command": "vscode-extension.helloWorld",
 				"title": "Hello World"
+			}
+			,{
+				"command": "vscode-extension.abcs",
+				"title": "abc"
 			}
 		]
 	},
