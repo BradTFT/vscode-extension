@@ -34,3 +34,6 @@ Today people have finally responded to my github issues. they are [here](https:/
 # SOLVED <br />
 **2.12.22** <br />
 In the following github[issue](https://github.com/microsoft/vscode/issues/148932), we solved the issue. it turns out that i have to only be inside of the generated folder and because i had the parent folder opened, it was causing issues because that isnt how the extension reader looks for the needed files. Im thinking about reinstating the git repo but i think im going to leave it for now. Im happy this is fixed and i can finally get to work.
+
+**2.12.22** <br />
+I created a popup window function. after reading the docs and getting super confused i think im ready. currently getting an error that the extension is not being found. i will fix this as soon as i can. i have a theory that its because something needs to be put between the two commands in extension.ts or in package.json.
