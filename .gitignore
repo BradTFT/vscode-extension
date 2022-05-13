@@ -7,3 +7,6 @@ node
 .node
 node_modules
 *.code-workspace
+*.js
+*.map
+out/**
