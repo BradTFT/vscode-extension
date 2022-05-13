@@ -10,9 +10,7 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:vscode-extension.helloWorld"
-	],
-	"activationEvents1": [
+        "onCommand:vscode-extension.helloWorld",
 		"onCommand:vscode-extension.abc"
 	],
 	"main": "./out/extension.js",
