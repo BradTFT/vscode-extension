@@ -41,3 +41,6 @@ I created a popup window function. after reading the docs and getting super conf
 
 **2.13.22** <br />
 I have an idea, maybe the commands have to be in the same variable. instead of two different variable, maybe all commands have to be called from the same one. im going to test that today. This idea did not work. I can attempt to follow the docs to make real commands instead of using this "debugging" command (the vscode.window shows a window and is close to console.log).
+
+# Honestly
+i think i should just scrap this whole thing. ill see how i feel about this tomorrow
