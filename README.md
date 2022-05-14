@@ -37,3 +37,7 @@ In the following github[issue](https://github.com/microsoft/vscode/issues/148932
 
 **2.12.22** <br />
 I created a popup window function. after reading the docs and getting super confused i think im ready. currently getting an error that the extension is not being found. i will fix this as soon as i can. i have a theory that its because something needs to be put between the two commands in extension.ts or in package.json.
+
+
+**2.13.22** <br />
+I have an idea, maybe the commands have to be in the same variable. instead of two different variable, maybe all commands have to be called from the same one. im going to test that today. This idea did not work. I can attempt to follow the docs to make real commands instead of using this "debugging" command (the vscode.window shows a window and is close to console.log).
